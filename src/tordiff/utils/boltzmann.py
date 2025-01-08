@@ -1,4 +1,4 @@
-from diffusion.sampling import *
+from tordiff.diffusion.sampling import *
 
 
 class BoltzmannResampler:

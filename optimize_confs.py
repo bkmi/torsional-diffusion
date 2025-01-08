@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 import pandas as pd
 from rdkit.Chem import AllChem
 
-from utils.xtb import *
+from tordiff.utils.xtb import *
 
 parser = ArgumentParser()
 parser.add_argument('--in_confs', type=str, required=True, help='Pickle with input conformers')

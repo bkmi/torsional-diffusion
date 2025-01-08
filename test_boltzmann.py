@@ -1,8 +1,8 @@
 import tqdm, yaml, pickle, json
 from argparse import ArgumentParser, Namespace
 
-from utils.utils import get_model
-from utils.boltzmann import *
+from tordiff.utils.utils import get_model
+from tordiff.utils.boltzmann import *
 
 parser = ArgumentParser()
 parser.add_argument('--model_dir', type=str, default=None, help='')

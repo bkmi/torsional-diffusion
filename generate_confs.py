@@ -7,8 +7,8 @@ from tqdm import tqdm
 import yaml
 import os.path as osp
 
-from utils.utils import get_model
-from diffusion.sampling import *
+from tordiff.utils.utils import get_model
+from tordiff.diffusion.sampling import *
 
 parser = ArgumentParser()
 parser.add_argument('--model_dir', type=str, required=True, help='Path to folder with trained model and hyperparameters')

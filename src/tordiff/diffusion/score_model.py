@@ -8,7 +8,7 @@ from torch_cluster import radius, radius_graph
 from torch_scatter import scatter
 import numpy as np
 from e3nn.nn import BatchNorm
-import diffusion.torus as torus
+import tordiff.diffusion.torus as torus
 
 
 class TensorProductConvLayer(torch.nn.Module):

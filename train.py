@@ -2,11 +2,11 @@ import math, os, torch, yaml
 torch.multiprocessing.set_sharing_strategy('file_system')
 import numpy as np
 from rdkit import RDLogger
-from utils.dataset import construct_loader
-from utils.parsing import parse_train_args
-from utils.training import train_epoch, test_epoch
-from utils.utils import get_model, get_optimizer_and_scheduler, save_yaml_file
-from utils.boltzmann import BoltzmannResampler
+from tordiff.utils.dataset import construct_loader
+from tordiff.utils.parsing import parse_train_args
+from tordiff.utils.training import train_epoch, test_epoch
+from tordiff.utils.utils import get_model, get_optimizer_and_scheduler, save_yaml_file
+from tordiff.utils.boltzmann import BoltzmannResampler
 from argparse import Namespace
 
 RDLogger.DisableLog('rdApp.*')

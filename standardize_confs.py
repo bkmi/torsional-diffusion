@@ -3,7 +3,7 @@ from collections import defaultdict
 from argparse import ArgumentParser
 from scipy.optimize import linear_sum_assignment
 
-from utils.standardization import *
+from tordiff.utils.standardization import *
 
 RDLogger.DisableLog('rdApp.*')
 
